@@ -1,1 +1,1 @@
-web: gunicorn nazirblog.wsgi --log-file -
+web: gunicorn src.wsgi --log-file -
